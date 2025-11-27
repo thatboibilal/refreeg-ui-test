@@ -111,7 +111,7 @@ export default function GetStartedPage() {
             </ul>
           </div>
 
-          {/* WHY REFREEG — BIG SEPARATED CARD */}
+          {/* WHY REFREEG — CARD */}
           <section className="mt-10">
             <div className="bg-white border shadow-sm rounded-2xl p-8 max-w-2xl">
               <h3 className="text-[20px] font-semibold text-gray-900">Why RefreeG?</h3>
@@ -144,18 +144,9 @@ export default function GetStartedPage() {
 
           {/* FEATURE CARDS */}
           <section className="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-6">
-            <FeatureCard
-              img="/images/earn.png"
-              text="Earn on-chain yields on donations."
-            />
-            <FeatureCard
-              img="/images/verify.png"
-              text="Show transparency via blockchain."
-            />
-            <FeatureCard
-              img="/images/bell.png"
-              text="Launch trusted causes that inspire action."
-            />
+            <FeatureCard img="/images/earn.png" text="Earn on-chain yields on donations." />
+            <FeatureCard img="/images/verify.png" text="Show transparency via blockchain." />
+            <FeatureCard img="/images/bell.png" text="Launch trusted causes that inspire action." />
           </section>
         </main>
       </div>
