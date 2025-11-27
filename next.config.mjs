@@ -84,4 +84,9 @@ function mergeConfig(nextConfig, userConfig) {
   }
 }
 
-export default nextConfig;
+export default {
+  images: {
+    unoptimized: true,
+  },
+};
+
